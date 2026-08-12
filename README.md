@@ -6,35 +6,35 @@ This project analyses retail data for Nova retail group to answer key business q
 
 BUSINESS QUESTIONS
 
-Which products in pricing order including their productid, productname and unitprice are in electronics category?
+1.Which products in pricing order including their productid, productname and unitprice are in electronics category?
 
-How many customers are in each region?
+2.How many customers are in each region?
 
-Which are the 10 most recent orders?
+3.Which are the 10 most recent orders?
 
-Which products have a unitprice of less than R1000?
+4.Which products have a unitprice of less than R1000?
 
-How many feedback responses exist for each satisfaction level?
+5.How many feedback responses exist for each satisfaction level?
 
-What is total sales revenue for each product category?
+6.What is total sales revenue for each product category?
 
-Which are the 5 top customers by total purchases?
+7.Which are the 5 top customers by total purchases?
 
-What are the total sales by month for 2024?
+8.What are the total sales by month for 2024?
 
-Which channel performs better between Online and Store?
+9.Which channel performs better between Online and Store?
 
-What is average customer rating for each product?
+10.What is average customer rating for each product?
 
-which is the best selling product per category?
+11.which is the best selling product per category?
 
-What is customer Lifetime value?
+12.What is customer Lifetime value?
 
-What is profit margin percentage for each product?
+13.What is profit margin percentage for each product?
 
-What is comparison in sales between 2023 and 2024?
+14.What is comparison in sales between 2023 and 2024?
 
-Which regions rank higher by total sales?
+15.Which regions rank higher by total sales?
 
 TOOLS
 
