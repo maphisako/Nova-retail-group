@@ -9,3 +9,13 @@ when profit_margin<=20 then 'promotional_discount'
 else 'heavy_discount'
 end as Discount_bands
 from Discount_Effectiveness
+
+BUSINESS INSIGHTS
+  
+1. Profitability:
+Heavy discount has the strongest margin.
+  
+
+2. Total profit generated:
+Promotional discount generates the most total profit.
+
