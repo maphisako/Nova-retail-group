@@ -1,0 +1,1 @@
+The marketing team should invest more in products with low sales volume and higher ratings as they have potential to improve sales. Implement heavy discount to perishable threatend and near expiring products and invest more in electronics products.
