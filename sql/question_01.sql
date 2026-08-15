@@ -1,4 +1,4 @@
 Sql/Question_01.sql select*
 from products
-where category= 'electronics'
+where category= 'Electronics'
 order by unitprice
