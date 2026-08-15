@@ -1,3 +1,5 @@
-select (quantity*unitprice) as total_sales,orderdate
+select total_sales,year(orderdate) as year,month(orderdate) as month
 from sales
-order by orderdate
+  where orderdate='2024'
+  group by 1,2,3
+order by year,month
