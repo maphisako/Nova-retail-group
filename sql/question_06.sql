@@ -1,4 +1,4 @@
-select sum(s.unitprice*s.quantity),p.category,s.unitprice*s.quantity as total_revenue,s.totalsales-p.costprice as total_profit
+select sum(totalsales) as total_revenue,p.category,sum(s.profit) as total_profit
 from sales s
 innerjoin products p
 on p.productid=s.productid
