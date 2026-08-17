@@ -1,4 +1,4 @@
-select sum(s.quantity*p.unitprice) as total_purchases,count(s.orderid) as number_of_orders,avg(s.unitprice) as average_order_value,c.region,c.channel
+select sum(totalsales) as total_purchases,count(s.orderid) as number_of_orders,avg(s.unitprice) as average_order_value,c.region,c.channel
 from customers c
 inner join sales s
 on c.customerid=s.customerid
