@@ -1,7 +1,6 @@
-with annual_sales as(select year(s.orderdate) as year,sum(s.unitprice*s.quantity) as total_sales
-from sales s
-where year(s.orderdate) in (2023,2024)
-group by year(orderdate))
-select *, round(total_sales,2) as rounded_sales, round((total_sales-lag(total_sales) over(order by year))/lag(total_sales) over(order by year)*100,2) as growth_percentage
+with annual_sales as(select year(OrderDate) as year,sum(totalsales) as sales_revenue 
+from sales 
+where year(OrderDate) in (2024,2023)
+group by OrderDate)
+select year,sales_revenue,lag(sales_revenue)over(order by year) as last_term_sales
 from annual_sales
-order by year
