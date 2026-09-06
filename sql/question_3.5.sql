@@ -3,3 +3,4 @@ from sales s
 inner join customers c
 on c.customerid=s.customerid
 group by c.region
+order by region_rank
