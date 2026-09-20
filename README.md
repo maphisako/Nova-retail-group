@@ -58,9 +58,48 @@ DATA
 The analysis uses retail sales data containing informtion about products, customers, sales and customerfeedback. The data was provided as part of data analyses bootcamp project.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Dashboard Preview
 
-![Power BI Dashboard](Nova retail dashboard.png)
+![Nova Retail Dashboard](nova%20retail%20dashboard.png)
+
+
+
 
 
 
