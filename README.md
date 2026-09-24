@@ -83,7 +83,7 @@ The analysis uses retail sales data containing informtion about products, custom
 
 
 
-
+![Nova retail sales report}(blob/main/nova%20retail%20sales%20report.pnga)
 
 
 
