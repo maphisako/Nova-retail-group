@@ -94,12 +94,4 @@ The analysis uses retail sales data containing informtion about products, custom
 
 
 
-## Dashboard Preview
-
-![Nova Retail Dashboard](Nova%20retail%20dashboard.png)
-
-
-
-
-
 
