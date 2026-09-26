@@ -55,6 +55,8 @@ databricks
 
 DATA
 
+Powerbi
+
 The analysis uses retail sales data containing informtion about products, customers, sales and customerfeedback. The data was provided as part of data analyses bootcamp project.
 
 
