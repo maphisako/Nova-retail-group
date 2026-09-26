@@ -84,7 +84,7 @@ The analysis uses retail sales data containing informtion about products, custom
 
 ## Dashboard Preview
 
-![Power BI Dashboard](nova%20retail%20sales%20report.png)
+![Power BI Dashboard]()
 
 
 
