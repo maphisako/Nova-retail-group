@@ -1,6 +1,4 @@
-SELECT 
-  c.CustomerID,
-  CONCAT(c.FirstName, ' ', c.LastName) AS CustomerName,
+SELECT   c.CustomerID, CONCAT(c.FirstName, ' ', c.LastName) AS CustomerName,
   c.Region,
   c.Channel AS Primary_Channel,
   SUM(s.TotalSales) AS Total_Purchases,
@@ -11,5 +9,6 @@ INNER JOIN customers_2 c ON s.CustomerID = c.CustomerID
 GROUP BY c.CustomerID, c.FirstName, c.LastName, c.Region, c.Channel
 HAVING COUNT(DISTINCT s.OrderID) > 3
 ORDER BY Total_Purchases DESC
+  
 
 
