@@ -1,6 +1,7 @@
-select c.region,sum(s.totalsales) as total_revenue,count(distinct s.orderid) as total_orders,rank()over(order by sum(s.totalsales) desc) as region_rank
-from sales s
-inner join customers c
-on c.customerid=s.customerid
-group by c.region
-order by region_rank
+select c.Region,SUM(s.TotalSales) AS Total_Sales,
+  COUNT(DISTINCT s.OrderID) AS Total_Orders,
+  RANK() OVER (ORDER BY SUM(s.TotalSales) DESC) AS Rank
+FROM sales_2 s
+INNER JOIN customers_2 c ON s.CustomerID = c.CustomerID
+GROUP BY c.Region
+ORDER BY Rank
