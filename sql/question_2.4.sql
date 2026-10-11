@@ -1,4 +1,4 @@
-select c.channel,count(s.orderid) as number_of_orders,avg(Totalsales) as average_order_value,sum(s.totalsales) as total_revenue
+select c.channel,count(DISTINCT s.orderid) as number_of_orders,avg(Totalsales) as average_order_value,sum(s.totalsales) as total_revenue
 from customers c
 inner join sales s
 on c.customerid=s.customerid
