@@ -50,6 +50,39 @@ Part 5 Executive Management report detailing overall business performance and in
 sql queries to above questions are saved in the sql folder
 
 
+## Tools and Technologies
+SQL: Used to query, retrieve, and analyze the dataset.
+
+Databricks: Used to load the dataset, execute SQL queries, and validate the correctness of query results.
+
+Microsoft Power BI: Used to load the dataset separately, create visualizations, and develop interactive dashboards.
+
+## Methodology
+Data Loading in Databricks: The dataset was loaded into Databricks to provide an environment for executing and testing SQL queries.
+
+SQL Query Validation: SQL queries were executed in Databricks to check the accuracy of the results and ensure they met the intended analytical requirements.
+
+Data Loading in Power BI: The dataset was independently imported into Power BI for visualization and reporting.
+
+Data Visualization: Charts, graphs, and other visual elements were created in Power BI to present the findings and highlight important trends and patterns.
+Analysis and Reporting: The visualizations were used to communicate the key insights derived from the analysis
+
+## Requirements
+
+To review this project, you may need:
+
+Access to Databricks to execute and review the SQL queries.
+
+Microsoft Power BI Desktop to open and explore the report.
+
+The original dataset used for the project which are available in the repository
+
+## Key findings
+Orders with no discount are most profitable, with each 10% increase in discount reducing profit margin by approximately 5-6 percentage points.
+
+The bottom 3 products (Water Bottle, Scented Candles, Yoga Mat) should be monitored closely. While they have healthy profit margins (33-36%), their low revenue suggests limited demand. All products maintain above 30% profit margin and reasonable customer ratings (~3.7), so none are immediate candidates for discontinuation.
+
+
 
 
 
