@@ -43,7 +43,11 @@ Nova Retail Group operates across 10 stores in 5 provinces through physical and 
 
 4.2 Discount effectiveness
 
-4.3 Product Portfolio optimization 
+4.3 Product Portfolio optimization
+
+Part 5 Executive Management report detailing overall business performance and insights
+
+sql queries to above questions are saved in the sql folder
 
 
 
