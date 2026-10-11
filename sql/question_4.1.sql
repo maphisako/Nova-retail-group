@@ -30,3 +30,5 @@ ORDER BY cs.Satisfaction_Level DESC
   Surprising Finding: Low satisfaction customers (rating 1-3) actually average 5.54 orders per customer, while high satisfaction customers (rating 4-5) average 5.04 orders. However, there are more highly satisfied customers (252 vs 185), leading to more total orders from the satisfied group (1,269 vs 1,024).w that majority of those satisfied make more repeat purchases.
 
   
+
+  
