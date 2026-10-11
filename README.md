@@ -82,6 +82,11 @@ Orders with no discount are most profitable, with each 10% increase in discount 
 
 The bottom 3 products (Water Bottle, Scented Candles, Yoga Mat) should be monitored closely. While they have healthy profit margins (33-36%), their low revenue suggests limited demand. All products maintain above 30% profit margin and reasonable customer ratings (~3.7), so none are immediate candidates for discontinuation.
 
+## Reference
+Dataset: Provided by Witle technologies as part of the course assessment.
+
+Tools: Databricks and Microsoft Power BI were used for SQL query validation and data visualization, respectively.
+
 ## What I learned
 Setting up a star schema in the powerbi
 
