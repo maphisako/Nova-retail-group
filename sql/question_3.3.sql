@@ -1,6 +1,7 @@
-select p.productname,p.category,sum(s.totalsales) as total_revenue,sum(s.profit) as total_profit,round((total_profit)/(total_revenue)*100, 2) as profit_margin
-from sales s
-inner join products p
-on p.productid=s.productid
-group by p.productname,p.category
-order by profit_margin desc
+select  p.ProductName, p.Category, SUM(s.TotalSales) AS Total_Sales,
+  SUM(s.Profit) AS Total_Profit,
+  ROUND((SUM(s.Profit) / SUM(s.TotalSales)) * 100, 2) AS Profit_Margin_Percent
+FROM sales_2 s
+INNER JOIN products_2 p ON s.ProductID = p.ProductID
+GROUP BY p.ProductName, p.Category
+ORDER BY Profit_Margin_Percent DESC
