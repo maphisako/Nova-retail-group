@@ -45,7 +45,7 @@ Nova Retail Group operates across 10 stores in 5 provinces through physical and 
 
 4.3 Product Portfolio optimization 
 
-## Executive management report
+
 
 
 
